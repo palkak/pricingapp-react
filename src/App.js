@@ -16,7 +16,6 @@ class App extends React.Component {
       <Router>
         <Grid>
           <Header/>
-          <hr/>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/tool" component={Tool}/>

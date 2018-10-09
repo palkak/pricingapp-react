@@ -1,11 +1,22 @@
+.navigation {
+    background-color: #1d1d1e;
+    padding: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+ul {
+    margin: 0;
+}
+
 a {
     padding: 6px;
     margin: 0 6px;
     text-decoration: none;
-    color: black;
+    color: white;
+    /*text-transform: uppercase;*/
 }
 
 a.active {
-    border-bottom: 3px solid lawngreen;
+    border-bottom: 3px solid #dcb450;
 
 }

@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => (
 
-  <div>
+  <div className="navigation">
     <Nav>
       <NavLink exact to="/" activeClassName="active"><a>Home</a></NavLink>
       <NavLink to="/tool" activeClassName="active"><a>Tool</a></NavLink>
