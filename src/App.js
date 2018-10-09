@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Grid} from 'react-bootstrap';
 
 
 import {Header} from "./components/Header";
@@ -14,16 +13,15 @@ class App extends React.Component {
     return (
 
       <Router>
-        <Grid>
+        <div>
           <Header/>
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/tool" component={Tool}/>
-            <Route path="/info" component={Info}/>
-          </Switch>
-          <hr/>
+              <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route path="/tool" component={Tool}/>
+                <Route path="/info" component={Info}/>
+              </Switch>
           <Footer/>
-        </Grid>
+        </div>
       </Router>
 
     );

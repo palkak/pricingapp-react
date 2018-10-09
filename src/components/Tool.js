@@ -1,10 +1,11 @@
 import React from "react";
+import {Grid} from 'react-bootstrap';
 
 const Tool = () => (
 
-  <div>
+  <Grid>
     <h1>tu ma byc wyceniarka</h1>
-  </div>
+  </Grid>
 
 );
 
