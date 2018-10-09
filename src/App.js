@@ -1,11 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-class App extends Component {
+import {Header} from "./components/Header";
+import {Home} from "./components/Home";
+import {Tool} from "./components/Tool";
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1>App in progress</h1>
-      </div>
+
+      <Router>
+        <div>
+          <Header/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/tool" component={Tool}/>
+          </Switch>
+        </div>
+      </Router>
+
     );
   }
 }
