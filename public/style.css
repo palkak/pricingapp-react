@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    color: #406aea;
+}
+
 .home-main {
     background-image: url("./geometry-1023846_1920.jpg");
     background-repeat: no-repeat;
@@ -15,14 +19,10 @@ body {
 
 }
 .home-main-content {
-    background-color: #1d1d1e;
-    opacity: 0.8;
-    color: #dcb450;
+    background-color: rgba(30, 30, 31, 0.8);
+    color: #406aea;
     height: 100%;
-}
-.home-main-content .text {
     text-align: center;
-    margin-top: 0;
     padding: 220px 0 220px;
     font-size: 28px;
 }
@@ -33,5 +33,4 @@ footer {
     padding: 10px;
     font-size: 10px;
     font-weight: bold;
-    display: block;
 }
