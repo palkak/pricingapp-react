@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
 
-  <span>K&J</span>
+  <span>&copy; kip 2018</span>
 
 );
 

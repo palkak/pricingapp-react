@@ -1,0 +1,11 @@
+a {
+    padding: 6px;
+    margin: 0 6px;
+    text-decoration: none;
+    color: black;
+}
+
+a.active {
+    border-bottom: 3px solid lawngreen;
+
+}

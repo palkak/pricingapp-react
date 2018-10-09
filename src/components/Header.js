@@ -1,17 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import {Nav} from 'react-bootstrap';
+import './Header.css'
 
 const Header = () => (
 
   <div>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/tool">Tool</Link>
-      </li>
-    </ul>
+    <Nav>
+      <NavLink exact to="/" activeClassName="active"><a>Home</a></NavLink>
+      <NavLink to="/tool" activeClassName="active"><a>Tool</a></NavLink>
+      <NavLink to="/info" activeClassName="active"><a>Info</a></NavLink>
+    </Nav>
   </div>
 
 );

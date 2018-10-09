@@ -7,6 +7,7 @@ import {Header} from "./components/Header";
 import {Footer} from "./components/Footer";
 import {Home} from "./components/Home";
 import {Tool} from "./components/Tool";
+import {Info} from "./components/Info";
 
 class App extends React.Component {
   render() {
@@ -15,10 +16,13 @@ class App extends React.Component {
       <Router>
         <Grid>
           <Header/>
+          <hr/>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/tool" component={Tool}/>
+            <Route path="/info" component={Info}/>
           </Switch>
+          <hr/>
           <Footer/>
         </Grid>
       </Router>
